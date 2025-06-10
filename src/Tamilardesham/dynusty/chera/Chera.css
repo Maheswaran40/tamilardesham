@@ -1,0 +1,196 @@
+/* Cheradynusty componet start*/
+.chera-main{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+.cheradynustysubdiv {
+  height: 100%;
+  width: 100%;
+  margin-top: 0;
+  padding-top: 0;
+  background-image: url("../../images/chera-flag.jpg");
+  background-repeat: no-repeat;
+  background-size:100vw 100vh ;
+  filter: blur(10px)  brightness(0.3);
+  z-index: -1;
+  position: absolute;
+  
+}
+/* chera-nav */
+
+.chera-nav{
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.518);
+  position: relative;
+  z-index: 1;
+  height: 10vh;
+  color: white;
+  display: flex;
+  align-items: center;padding: 0px 20px;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  
+}
+
+
+#chera-navbar_button{
+  background-color: transparent;
+  height: 30px;
+    width: 30px;
+ border-radius: 5px;
+     color: rgb(187, 113, 16);
+     box-shadow: 1px 1px 10px rgb(187, 113, 16) ;
+}
+#chera-headerh1{
+  filter: drop-shadow(0px 0px  1px rgb(0, 0, 0));
+     background: linear-gradient(gold,rgb(163, 12, 12));
+     background-clip: text;
+     color: transparent;
+     margin-left: 150px;
+
+}
+#chera-nav_button{
+  background-color: transparent;
+  border-radius: 7px;
+     color: rgb(187, 113, 16);
+     box-shadow: 1px 1px 10px rgb(187, 113, 16) ;
+     
+}
+#chera-nav_input{
+  background-color: transparent;
+  border: 1px solid black;
+  color: white;
+  box-shadow: 1px 1px 10px rgb(187, 113, 16) ;
+  border-radius: 7px;
+}
+#chera-nav_input::placeholder{
+    color: rgb(187, 113, 16);
+}
+#chera-nav_input:hover,#chera-nav_button:hover,#chera-navbar_button:hover{
+    box-shadow: 0 0 10px rgb(239, 237, 235) ;
+}
+
+@media screen and (max-width:425px) 
+{
+  .chera-main{
+   height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  } 
+  .cheradynustysubdiv{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+
+
+ #chera-headerh1{
+  
+  font-size: medium;
+  text-align: center;
+  margin-left: 0px;
+ 
+ }
+ #chera-nav_input{
+   display: none;
+   align-self: flex-end;
+ }
+
+ .chera-footer{
+  overflow: auto;
+  display: inline;
+  text-align: justify;
+ }
+
+#chera-kings{
+  position: relative;
+  width: 100%;
+  overflow: scroll;
+  display: inline-block;
+}
+#chera-kings button{
+  overflow: scroll;
+  scrollbar-width: none;
+  font-size: xx-small;
+}
+
+}
+
+
+
+#chera-kings {
+  color: white;
+  margin-top: 0%;
+  position: fixed;
+  overflow: hidden;
+  height: 80%;
+  width: 100%;
+  display: inline-block;
+  overflow: scroll;
+  scrollbar-width: none;
+  position: absolute;
+}
+
+
+#chera-kings button {
+  align-items: center;
+  font-size: x-large;
+  height: 15%;
+  width: 100%;
+  background-color: transparent;
+  margin-top: 0%;
+  color: white;
+  filter: drop-shadow(1px 1px 10px rgb(232, 168, 7));
+  border-color: transparent;
+  cursor:pointer ;
+  white-space: nowrap;
+  padding-left:20px ;
+  display: flex;
+  left: 15px;
+ 
+}
+#chera-kings button:hover {
+  box-shadow: 1px 1px 20px gold;
+  transition: 0.5s;
+  border-right-color: transparent;
+  border: 1px solid gold;
+
+   
+
+} 
+
+.chera-footer{
+  position: absolute;
+  bottom: 0%;
+   background-color: rgba(0, 0, 0, 0.518);
+  padding: 0x;
+  height:  10vh;
+ width: 100vw;
+ overflow: auto;
+  color: white;
+  display: flex;
+  margin: 0%;
+  text-align: justify;
+  font-size: small;
+ 
+}
+.chera-footer p{
+  padding:1px 5px;
+}
+.chera-footer span{
+  position: absolute;
+  right:10px ;
+}
+
+#chera-kings h3{
+  text-align: center;
+   filter: drop-shadow(1px 1px  1px rgb(0, 0, 0));
+     background: linear-gradient(gold,rgb(163, 12, 12));
+     background-clip: text;
+     color: transparent;
+     text-decoration: underline;
+  
+}

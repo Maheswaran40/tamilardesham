@@ -1,0 +1,90 @@
+#homediv{
+    position: relative;
+    height: 25vh;
+    width: 100vw;
+    /* background-color: rgb(87, 17, 154); */
+    display: inline-block;
+}
+
+.navlink {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #265ad331;
+  margin-top: 30px;
+  color: rgb(247, 240, 240);
+}
+.header{
+  display: flex;
+  background-color: rgb(185, 218, 227);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  
+  
+}
+#open::after {
+  content: "\00a0 \00a0"url("https://cdn-icons-png.flaticon.com/16/847/847969.png");
+  color: white;
+}
+#open {
+  margin-left: 90%;
+  margin-top: 5%;
+  background-color: blue;
+  /* position: absolute; */
+}
+#img1 {
+  margin-left: 2%;
+  border: 1px solid black;
+  padding: 0%;
+  background-color: bisque;
+  position: absolute;
+  display: flex;
+  width: 150px;
+  height: 80%;
+}
+#close {
+  
+  margin-left: 10px;
+  margin-top: 0px;
+  background-color: rgb(25, 28, 208);
+  color: rgb(238, 236, 236);
+  width: 70px;
+  border: none;
+  
+}
+
+
+.unlisted {
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 80%;
+  z-index: 1;
+  height: 300px;
+  width: 400px;
+  border: 1px solid black;
+  background-color: rgb(226, 174, 202);
+  border-radius: 5px;
+  
+}
+li {
+  color: black;
+  height: 50px;
+  width: 150px;
+}
+
+#textbishop{
+  position: absolute;
+  margin-left: 30%;
+  color: black ;
+  font-size: xx-large;
+  margin-left: 35%;
+}
+#homediv2{
+  background-color: rgb(78, 78, 193);
+  height: 100vh;
+  position: relative;
+}
+#img2{
+  height:100%;
+  width: 100%;
+  margin-left: auto;
+}

@@ -1,0 +1,186 @@
+/* pandyadynusty comp start */
+.pandya-main-div{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+
+.pandyadynustymaindiv {
+  height: 100vh;
+  width: 100vw;
+  margin-top: 0;
+  padding-top: 0;
+  background-image: url("../../images/pandya-flag.png");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  filter: blur(5px ) brightness(0.3);
+  z-index: -1;
+  position: absolute;
+
+}
+
+/* pandyadynusty comp end */
+
+.pandya-nav{
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.518);
+  position: relative;
+  z-index: 1;
+  height: 10vh;
+  color: white;
+  display: flex;
+  align-items: center;padding: 0px 20px;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+}
+
+#pandya-navbar_button{
+  background-color: transparent;
+  height: 30px;
+    width: 30px;
+ border-radius: 5px;
+     color: rgb(187, 113, 16);
+     box-shadow: 1px 1px 10px rgb(187, 113, 16) ;
+}
+#pandya-headerh1{
+  filter: drop-shadow(0px 0px  1px rgb(0, 0, 0));
+     background: linear-gradient(gold,rgb(163, 12, 12));
+     background-clip: text;
+     color: transparent;
+     margin-left: 150px;
+
+}
+#pandya-nav_button{
+  background-color: transparent;
+  border-radius: 7px;
+     color: rgb(187, 113, 16);
+     box-shadow: 1px 1px 10px rgb(187, 113, 16) ;
+     
+}
+#pandya-nav_input{
+  background-color: transparent;
+  border: 1px solid black;
+  color: white;
+  box-shadow: 1px 1px 10px rgb(187, 113, 16) ;
+  border-radius: 7px;
+}
+#pandya-nav_input::placeholder{
+    color: rgb(187, 113, 16);
+}
+#pandya-nav_input:hover,#pandya-nav_button:hover,#pandya-navbar_button:hover{
+    box-shadow: 0 0 10px rgb(239, 237, 235) ;
+}
+#pandya-kings {
+  color: white;
+  margin-top: 0%;
+  position: fixed;
+  overflow: hidden;
+  height: 80%;
+  width: 100%;
+  display: inline-block;
+  overflow: scroll;
+  scrollbar-width: none;
+  position: absolute;
+}
+#pandya-kings button {
+  align-items: center;
+  font-size: x-large;
+  height: 15%;
+  width: 100%;
+  background-color: transparent;
+  margin-top: 0%;
+  color: white;
+  filter: drop-shadow(1px 1px 10px rgb(232, 168, 7));
+  border-color: transparent;
+  cursor:pointer ;
+  white-space: nowrap;
+  padding-left:20px ;
+  display: flex;
+  left: 15px;
+ 
+}
+#pandya-kings button:hover {
+  box-shadow: 1px 1px 20px gold;
+  transition: 0.5s;
+  border-right-color: transparent;
+  border: 1px solid gold;
+}
+
+#pandya-kings h3{
+  text-align: center;
+   filter: drop-shadow(1px 1px  1px rgb(0, 0, 0));
+     background: linear-gradient(gold,rgb(163, 12, 12));
+     background-clip: text;
+     color: transparent;
+     text-decoration: underline;
+  
+}
+/* footer */
+.pandya-footer{
+  position: absolute;
+  bottom: 0%;
+   background-color: rgba(0, 0, 0, 0.518);
+  padding: 0x;
+  height:  10vh;
+ width: 100vw;
+ overflow: auto;
+  color: white;
+  display: flex;
+  margin: 0%;
+  text-align: justify;
+  font-size: small;
+ 
+}
+.pandya-footer p{
+  padding:1px 5px;
+}
+.pandya-footer span{
+  position: absolute;
+  right:10px ;
+}
+
+
+/* mobile */
+
+@media screen and (max-width:425px) 
+{
+  .pandya-main{
+   height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  } 
+  .pandyadynustymaindiv{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+
+
+ #pandya-headerh1{
+  
+  font-size: medium;
+  text-align: center;
+  margin-left: 0px;
+ 
+ }
+ #pandya-nav_input{
+   display: none;
+   align-self: flex-end;
+ }
+
+ .pandya-footer{
+  overflow: auto;
+  display: inline;
+  text-align: justify;
+ }
+
+#pandya-kings button{
+  overflow: scroll;
+  scrollbar-width: none;
+  font-size: small;
+}
+}
+

@@ -1,0 +1,147 @@
+.home-maindiv{
+     justify-content: space-between;
+    align-items: center;
+    background-color:rgba(0,0,0,0.5) ;
+    height: 10%;
+    display: flex;
+    text-align: center;
+    /* position: sticky; */
+        width: 100vw;
+}
+#headerh1{
+    color: transparent;
+    display: inline; 
+    
+     filter: drop-shadow(0px 0px  1px rgb(0, 0, 0));
+     background: linear-gradient(gold,rgb(163, 12, 12));
+     background-clip: text;
+     margin-left: 150px;
+}
+@media screen and (max-width:425px)  {
+   .home-maindiv{
+    width: 100%;
+    justify-content: space-between;
+   }
+    #headerh1{
+        display: flex;
+        margin-left: 0px;
+        font-size: medium;
+    
+    }
+
+    #input-div{
+    width: 50px;
+    height: 50px;
+   }
+   
+    #nav_input{
+   display: none;
+   }
+   #nav_button{
+    margin-top: 10px;
+   }
+ }
+
+
+
+@media screen and (max-width:320px)  {
+   .home-maindiv{
+    width: 100%;
+    justify-content: space-between;
+   }
+    #headerh1{
+        display: flex;
+        margin-left: 0px;
+        font-size: medium;
+    
+    }
+   #input-div{
+    width: 50px;
+    height: 50px;
+   }
+   
+   #nav_input{
+   display: none;
+   }
+
+
+}
+
+#navbar_button{
+    background-color: transparent;
+    margin: 15px;
+    height: 30px;
+    width: 30px;
+     border-radius: 5px;
+     color: rgb(187, 113, 16);
+     box-shadow: 1px 1px 10px rgb(187, 113, 16) ;
+     
+}
+#navbar_button:hover{
+    box-shadow: 1px 1px 10px rgb(239, 237, 236) ;
+
+}
+
+#input-div{
+    margin-right: 10px;
+}
+#nav_input{
+    background-color: transparent;
+    height: 28px;
+    width: 200px;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgb(187, 113, 16) ;
+    color: white;
+
+}
+#nav_input:hover{
+    box-shadow: 0 0 10px rgb(239, 237, 235) ;
+}
+
+#nav_input::placeholder{
+    color: rgb(187, 113, 16);
+}
+#nav_button{
+  background-color: transparent;
+    height: 30px;
+    width: 30px;
+     border-radius: 7px;
+     color: rgb(187, 113, 16);
+     box-shadow: 1px 1px 10px rgb(187, 113, 16) ;
+}
+#footer-page{
+    background-color:transparent;
+    height: 14vh;
+    text-align: center;
+   color: antiquewhite;
+   font-size: small;
+   width: 100vw;
+   
+   
+}
+#footer-h1{
+     background: linear-gradient(gold,rgb(163, 12, 12));
+     background-clip: text;
+     color: transparent;
+    /* text-shadow: 1px 1px 10px gold; */
+    filter: drop-shadow(1px 1px 1px rgb(18, 16, 1) );
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+#footer-p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+   text-align: justify;
+   margin: auto;
+    padding: 15px;
+    
+}
+#mail {
+    color: white;
+    filter: drop-shadow(1px 1px 10px rgb(206, 138, 12) );
+    
+}
+#mail i:hover{
+    
+    color: gold;
+}

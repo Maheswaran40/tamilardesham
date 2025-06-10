@@ -1,0 +1,172 @@
+/* hom2 */
+.home2-main-div {
+  position: relative;
+  width: 100vw;
+  height: 76%;
+  margin-top: 0px;
+  background: linear-gradient(to right, black, rgba(0, 100, 100, 0) 80%);
+  display: block;
+  z-index:1 ;
+  overflow:hidden;
+  scrollbar-width: none;
+}
+
+
+
+#div1 {
+  color: white;
+  margin-top: 0%;
+  position: fixed;
+  overflow: hidden;
+  height: 100%;
+  width: 100vw;
+  display: inline-block;
+  overflow: scroll;
+  scrollbar-width: none;
+  position: absolute;
+}
+
+
+
+
+
+
+#div1 > button {
+  align-items: center;
+  font-size: x-large;
+  height: 15%;
+  width: 100vw;
+  background-color: transparent;
+  margin-top: 0%;
+  color: white;
+  filter: drop-shadow(1px 1px 10px rgb(232, 168, 7));
+  border-color: transparent;
+  cursor:pointer ;
+  white-space: nowrap;
+  padding-left:20px ;
+  display: flex;
+  left: 15px;
+ 
+}
+#div1 button:hover {
+  box-shadow: 1px 1px 20px gold;
+  transition: 0.5s;
+  border-right-color: transparent;
+  border: 1px solid gold;
+
+   
+
+} 
+
+
+/* button chola */
+/* #buttonchola {
+  align-items: center;
+  font-size: x-large;
+  height: 15%;
+  width: 100vw;
+  background-color: transparent;
+  margin-top: 0%;
+  color: white;
+  filter: drop-shadow(1px 1px 10px rgb(232, 168, 7));
+ 
+   display: flex;
+  left: 15px;
+  border-color: transparent;
+  cursor:pointer ;
+  white-space: nowrap;
+   padding-left:20px ;
+  
+}
+#buttonchola:hover {
+  box-shadow: 1px 1px 20px gold;
+  transition: 0.5s;
+  border-right-color: transparent;
+  border: 1px solid gold;
+} */
+
+/* button pandya */
+/* #buttonpandya {
+  align-items: center;
+  font-size: x-large;
+  height: 15%;
+  width: 100vw;
+  background-color: transparent;
+  margin-top: 0%;
+  color: white;
+  filter: drop-shadow(1px 1px 10px rgb(232, 168, 7));
+  border-color: transparent;
+   
+    display: flex;
+  left: 15px;
+  padding-left:20px ;
+   cursor:pointer ;
+   white-space: nowrap;
+   
+}
+#buttonpandya:hover {
+  box-shadow: 1px 1px 20px gold;
+  transition: 0.5s;
+  border-right-color: transparent;
+  border: 1px solid gold;
+} */
+
+/* button pallava */
+/* #buttonpallava {
+  align-items: center;
+  font-size: x-large;
+  height: 15%;
+  width: 100vw;
+  background-color: transparent;
+  margin-top: 0%;
+  color: white;
+  filter: drop-shadow(1px 1px 10px rgb(232, 168, 7));
+  border-color: transparent;
+  padding-left:20px ;
+   display: flex;
+  left: 15px;
+  cursor:pointer ;
+  white-space: nowrap;
+  
+}
+#buttonpallava:hover {
+  box-shadow: 1px 1px 20px gold;
+  transition: 0.5s;
+  border-right-color: transparent;
+  border: 1px solid gold;
+  
+  
+} */
+
+/* #buttonmuthariyar {
+  align-items: center;
+  font-size: x-large;
+  height: 15%;
+  width: 100vw;
+  background-color: transparent;
+  margin-top: 0%;
+  color: white;
+  filter: drop-shadow(1px 1px 10px rgb(232, 168, 7));
+  border-color: transparent;
+   padding-left:20px ;
+  cursor:pointer ;
+  white-space: nowrap;
+  display: flex;
+  left: 10px;
+}
+#buttonmuthariyar:hover {
+  box-shadow: 1px 1px 20px gold;
+  transition: 0.5s;
+  border-right-color: transparent;
+  border: 1px solid gold;
+  
+} */
+
+
+
+
+
+
+
+
+

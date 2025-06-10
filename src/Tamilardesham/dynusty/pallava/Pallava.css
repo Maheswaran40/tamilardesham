@@ -1,0 +1,19 @@
+
+/* pallavadynusty comp start */
+
+.pallavadynustymaindiv {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(90, 200, 17);
+  margin-top: 0;
+  padding-top: 0;
+  /* position:absolute; */
+   background-image: url('../../images/pallava-flag.png');
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  filter: blur(5px );
+  
+  
+}
+
+/*  pallavadynusty comp end*/
