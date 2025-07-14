@@ -14,12 +14,7 @@ function Home() {
             <h1 id='headerh1'>தமிழர்தேசம்</h1>
        
         <div id='input-div'><input id="nav_input" type="text"placeholder='தேடல்' />  <button id='nav_button'> <i class="fa-solid fa-magnifying-glass"></i></button></div> 
-        
-        
-           {/* <Home2 className="main-content"/> */}
-            
-          
-           
+    
             
     </div>
   )

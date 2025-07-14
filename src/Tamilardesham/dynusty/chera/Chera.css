@@ -48,7 +48,7 @@
      background: linear-gradient(gold,rgb(163, 12, 12));
      background-clip: text;
      color: transparent;
-     margin-left: 150px;
+     margin-left: 50px;
 
 }
 #chera-nav_button{
@@ -71,6 +71,38 @@
 #chera-nav_input:hover,#chera-nav_button:hover,#chera-navbar_button:hover{
     box-shadow: 0 0 10px rgb(239, 237, 235) ;
 }
+/* loading effect */
+.loader-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader-wrapper img {
+  width: 300px;
+  height: 300px;
+  animation: spinZoom 3s ease forwards;
+  transform-style: preserve-3d;
+   transform: scaleX(-1);
+}
+
+@keyframes spinZoom {
+  0% {
+    transform: rotateY(0deg) scale(0.5) scaleX(-1);
+  }
+  50% {
+    transform: rotateY(1440deg) scale(1.5) scaleX(-1);
+  }
+  100% {
+    transform: rotateY(1620deg) scale(2) scaleX(-1); /* light zoom */
+  }
+ 
+}
+
+
 
 @media screen and (max-width:425px) 
 {
@@ -116,16 +148,30 @@
   scrollbar-width: none;
   font-size: xx-small;
 }
-
+.loader-wrapper img{
+  width: 200px;
+  height: 200px;
 }
 
+}
+/* mobile 320px  */
+@media screen and (max-width:320px){
 
+  .loader-wrapper img{
+  width: 150px;
+  height: 150px;
+}
+  
+}
+
+.Link{
+  text-decoration: none;
+  color: yellow;
+}
 
 #chera-kings {
   color: white;
   margin-top: 0%;
-  position: fixed;
-  overflow: hidden;
   height: 80%;
   width: 100%;
   display: inline-block;
@@ -152,6 +198,7 @@
   left: 15px;
  
 }
+
 #chera-kings button:hover {
   box-shadow: 1px 1px 20px gold;
   transition: 0.5s;
