@@ -40,7 +40,7 @@ function Navbar() {
           ></button>
         </div>
         <div className="offcanvas-body">
-          <button><Link className="Link" to={"/"}>HOME</Link></button>
+          <button><Link id='button-link' className="Link" to={"/"}>HOME</Link></button>
             <button onClick={speakContent}>start</button>
             <button onClick={stopSpeech}>pass</button>
           <button onClick={resumeSpeach}>resume</button>

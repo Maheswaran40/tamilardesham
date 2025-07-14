@@ -49,7 +49,7 @@ return (
 
         <div id='chera-kings'><br />
           <div id="heading-main-div">
-            <div className="heading-main-div"><h3 className="kingname">சங்ககாலம் முதல் நடு யுக காலம் வரை</h3></div>
+            <div className="heading-main-div1"><h3 className="kingname">சங்ககாலம் முதல் நடு யுக காலம் வரை</h3></div>
           </div>
 
           <button onClick={cheraKing1} id='buttonchera'>உத்தியன் சேரலாதன்</button><br />

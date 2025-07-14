@@ -48,7 +48,7 @@
      background: linear-gradient(gold,rgb(163, 12, 12));
      background-clip: text;
      color: transparent;
-     margin-left: 50px;
+     margin-left: 150px;
 
 }
 #chera-nav_button{
@@ -168,7 +168,9 @@
   text-decoration: none;
   color: yellow;
 }
-
+#button-link{
+  color: red;
+}
 #chera-kings {
   color: white;
   margin-top: 0%;
