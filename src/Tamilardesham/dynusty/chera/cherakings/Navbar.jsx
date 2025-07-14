@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from 'react'
 import { Link } from "react-router-dom";
-import { MyContext } from "../Speek";
+import { MyContext } from "./Speek";
 
 function Navbar() {
      const { speakContent, stopSpeech, resumeSpeach } = useContext(MyContext);

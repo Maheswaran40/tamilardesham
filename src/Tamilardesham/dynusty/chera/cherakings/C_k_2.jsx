@@ -5,7 +5,7 @@ import pathittrupaathuimg2 from "./chera-img/pathittru-patthu-2-png.png";
 import pathittrupaathuimg3 from "./chera-img/pathittru-patthu-3-png.png";
 import ingurunooruck2 from "./chera-img/ingurunooru-c-k-2.png";
 import nedunceralathan from "./chera-img/king.jpg";
-import Navbar from "./chera-img/Navbar";
+import Navbar from "./Navbar";
 
 
 import "./Cherakings.css";
