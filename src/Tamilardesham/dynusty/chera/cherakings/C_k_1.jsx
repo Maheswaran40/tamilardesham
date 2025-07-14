@@ -5,7 +5,7 @@ import "./Cherakings.css";
 import ck1img from "./chera-img/ck1-img1.png";
 import ck1img2 from "./chera-img//ck1-img2.png";
 import udiyanfamilyimg from "./chera-img/udiyanfamily.jpg";
-import Navbar from "./Navbar";
+import Navbar from "./chera-img/Navbar";
 
 
 function C_k_1() {
