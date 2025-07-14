@@ -1,6 +1,4 @@
 import React,{createContext,useEffect} from 'react'
-import { Link } from "react-router-dom";
-import C_k_2 from './C_k_2';
 export const MyContext = createContext();
 
 
